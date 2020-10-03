@@ -1,0 +1,21 @@
+.channel {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+}
+.channel:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.sidebarrow__title {
+  font-size: 12px;
+  font-weight: 500;
+  flex: 1;
+  color: #f2f2f2;
+  margin-left: 15px;
+}
+.sidebarrow__avatar {
+  height: 20px !important;
+  width: 20px !important;
+}

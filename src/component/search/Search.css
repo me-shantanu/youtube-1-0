@@ -1,0 +1,34 @@
+.search {
+  flex: 1;
+  background: #151515;
+  padding: 20px 20px;
+  padding-bottom: 0;
+  margin-left: 180px;
+  height: 100%;
+}
+.search__filter {
+  margin-left: 120px;
+  display: flex;
+
+  align-items: center;
+}
+.search__filter > h4 {
+  font-size: 11px;
+  font-weight: bold;
+  color: #999;
+  margin-left: 5px;
+}
+.search__filter__icon {
+  font-size: 20px !important;
+  color: #999;
+}
+
+.search > hr {
+  margin-left: 120px;
+  margin-right: 450px;
+  height: 1px;
+  border: 0;
+  background-color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

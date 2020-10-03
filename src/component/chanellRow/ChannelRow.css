@@ -1,0 +1,53 @@
+.channelrow {
+  margin-left: 120px;
+  margin-right: 450px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-evenly;
+}
+.channelrow__logo {
+  height: 120px !important;
+  width: 120px !important;
+  margin: 10px 6px;
+}
+.channelrow__text {
+  display: flex;
+  flex-direction: column;
+}
+.channelrow__text > h4 {
+  color: #e6e6e6 !important;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.channelrow__text_ver {
+  font-size: 14px !important;
+  color: #999 !important;
+  margin-left: 5px;
+}
+.channelrow__text > p {
+  color: #959595;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+.channelrow__subs {
+  display: flex;
+  align-items: center;
+}
+.channelrow__subs__btn {
+  background-color: #333 !important;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px !important;
+}
+.channelrow__subs__btn > span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+}
+.channelrow__subs__icon {
+  margin-left: 7px;
+  color: #999 !important;
+  font-size: 18px !important;
+}
